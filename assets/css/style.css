@@ -1,0 +1,66 @@
+:root {
+    --yellow: #ffc107;
+}
+
+* {
+    transition: all 0.1s linear;
+}
+
+*::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 5px !important;
+    background-color: grey !important;
+}
+
+body {
+    width: 100vw !important;
+    
+}
+
+
+/* CSS for Navbar of the website... */
+nav{
+    padding: 5px 0px !important;
+}
+.header-logo a img{
+    width: 250px;
+}
+
+.hover-effect:hover{
+    color: var(--yellow) !important;
+}
+
+.navbar-links::after {
+    content: "";
+    justify-self: start;
+    width: 0%;
+    height: 1px !important;
+    background-color: var(--yellow) !important;
+    transition: all 0.2s linear !important;
+}
+.navbar-links-box:hover > .navbar-links::after {
+    width: 100% !important;
+}
+/* CSS for Navbar of the website... */
+
+
+
+/* Main index page CSS... */
+.main-image-slider {
+    height: 95vh !important;
+}
+/* Main index page CSS... */
+
+
+@media screen and (max-width: 1000px) {
+    
+    .responsive-navbar {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .main-image-slider {
+        height: 40vh !important;
+    }
+}
