@@ -35,42 +35,42 @@
                 <span class="text-white">Our </span>
                 <span class="text-warning">Reach</span>
         </div>
-        <div class="all-reached-data d-flex justify-content-evenly align-items-center flex-wrap flex-md-nowrap gap-md-4 gap-1 w-75  px-md-0 px-lg-2 overflow-x-scroll">
+        <div class="all-reached-data d-flex justify-content-evenly align-items-center flex-wrap flex-md-nowrap gap-md-4 gap-1 w-100  px-md-0 px-lg-2 py-0 overflow-x-scroll">
 
-            <div class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
-                <div class="reached-nums-data text-warning" data-reachedNum="10">
+            <div class="bg-black reached-numbers-boxes w-100 p-3 py-2 text-center d-flex flex-column align-items-center justify-content-center ">
+                <div class="reached-nums-data fs-2 text-warning" data-reachedNum="10">
                     0
                 </div>
                 <div class="reached-nums-about">
                     District Level Events
                 </div>
             </div>
-            <div class="bg-black reached-numbers-boxes w-100 px-3 py-1  text-center d-flex flex-column align-items-center justify-content-center ">
-                <div class="reached-nums-data text-warning" data-reachedNum="20">
+            <div class="bg-black reached-numbers-boxes w-100 px-3 py-4 py-1  text-center d-flex flex-column align-items-center justify-content-center ">
+                <div class="reached-nums-data fs-2 text-warning" data-reachedNum="20">
                     0
                 </div>
                 <div class="reached-nums-about">
                     Startup Summits/ Sessions
                 </div>
             </div>
-            <div class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
-                <div class="reached-nums-data text-warning" data-reachedNum="80">
+            <div class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                <div class="reached-nums-data fs-2 text-warning" data-reachedNum="80">
                     0
                 </div>
                 <div class="reached-nums-about">
                     Workshops
                 </div>
             </div>
-            <div class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
-                <div class="reached-nums-data text-warning" data-reachedNum="15">
+            <div class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                <div class="reached-nums-data fs-2 text-warning" data-reachedNum="15">
                     0
                 </div>
                 <div class="reached-nums-about">
                     Industry Visits
                 </div>
             </div>
-            <div class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
-                <div class="reached-nums-data text-warning" data-reachedNum="60">
+            <div class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                <div class="reached-nums-data fs-2 text-warning" data-reachedNum="60">
                     0
                 </div>
                 <div class="reached-nums-about">
@@ -78,8 +78,8 @@
                 
             </div>
         </div>
-        <div class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
-            <div class="reached-nums-data text-warning"  data-reachedNum="100">
+        <div class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+            <div class="reached-nums-data fs-2 text-warning"  data-reachedNum="100">
                 0
             </div>
             <div class="reached-nums-about">
@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
-            <div class="reached-nums-data text-warning" data-reachedNum="10000">
+            <div class="reached-nums-data fs-2 text-warning" data-reachedNum="10000">
                 0
             </div>
             <div class="reached-nums-about" >
