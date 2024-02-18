@@ -15,7 +15,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-white hover-effect  navbar-links d-flex flex-column" aria-current="page" href="./">Home</a>
+                            <a class="nav-link text-black hover-effect  navbar-links d-flex flex-column" aria-current="page" href="./">Home</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
                             <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./What-We-Do.php">What We Do</a>

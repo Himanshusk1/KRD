@@ -8,7 +8,7 @@ const loadAllReachedValues = async()=> {
         let incVal = Math.round(reachVal/20);
     
         let intervals = setInterval(() => {
-            if((inVal + incVal) <= reachVal) {
+            if((inVal + incVal) < reachVal) {
                 e.innerHTML = inVal+=incVal;
             } else {
                 e.innerHTML = reachVal + "+";
@@ -21,8 +21,8 @@ const loadAllReachedValues = async()=> {
 
 window.onscroll = ()=> {
     if(!isAlreadyScrolled) {
-        setTimeout(() => {
+        // setTimeout(() => {
             loadAllReachedValues();
-        }, 500);
+        // }, 100);
     }
 }

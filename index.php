@@ -17,20 +17,20 @@
         <!-- image slider section -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-            <img src="assets/images/slider-images/1.jpg" class="d-block w-100 main-image-slider" alt="...">
+            <div class="carousel-item rounded active" data-bs-interval="1000">
+            <img src="assets/images/slider-images/1.jpg" class="d-block w-100 main-image-slider rounded" alt="...">
             </div>
-            <div class="carousel-item" >
-            <img src="assets/images/slider-images/2.jpg" class="d-block w-100 main-image-slider" alt="...">
+            <div class="carousel-item rounded" >
+            <img src="assets/images/slider-images/2.jpg" class="d-block w-100 main-image-slider rounded" alt="...">
             </div>
-            <div class="carousel-item">
-            <img src="assets/images/slider-images/3.jpg" class="d-block w-100 main-image-slider" alt="...">
+            <div class="carousel-item rounded">
+            <img src="assets/images/slider-images/3.jpg" class="d-block w-100 main-image-slider rounded" alt="...">
             </div>
-            <div class="carousel-item">
-            <img src="assets/images/slider-images/4.jpg" class="d-block w-100 main-image-slider" alt="...">
+            <div class="carousel-item rounded">
+            <img src="assets/images/slider-images/4.jpg" class="d-block w-100 main-image-slider rounded" alt="...">
             </div>
-            <div class="carousel-item">
-            <img src="assets/images/slider-images/5.jpg" class="d-block w-100 main-image-slider" alt="...">
+            <div class="carousel-item rounded">
+            <img src="assets/images/slider-images/5.jpg" class="d-block w-100 main-image-slider rounded" alt="...">
             </div>
         </div>
         </div>
@@ -104,7 +104,20 @@
     </div>
     </div>
     
-    
+    <div class="my-1 py-2"></div>
+
+    <div class="container px-2 our-parteners-section">
+        <marquee behavior="alternate" direction="left">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+            <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png" alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+        </marquee>
+    </div>
 </main>
 
     

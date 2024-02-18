@@ -3,7 +3,7 @@
 }
 
 * {
-    transition: all 0.1s linear;
+    transition: all 0.1s linear !important;
 }
 
 *::-webkit-scrollbar {
@@ -15,7 +15,6 @@
 
 body {
     width: 100vw !important;
-    
 }
 
 
@@ -51,6 +50,14 @@ nav{
     height: 95vh !important;
 }
 /* Main index page CSS... */
+
+
+/* CSS for Footer of th ewebsite... */
+.social-media-links a:hover, .social-media-links a:active {
+    transition: all 0.3s linear !important;
+    background-color: rgba(196, 203, 233, 0.516) !important;
+}
+/* CSS for Footer of th ewebsite... */
 
 
 @media screen and (max-width: 1000px) {
