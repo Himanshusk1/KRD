@@ -18,13 +18,19 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="1000">
-            <img src="https://citiwebcast.web.app/favicon.ico" class="d-block w-100 main-image-slider" alt="...">
+            <img src="assets/images/slider-images/1.jpg" class="d-block w-100 main-image-slider" alt="...">
             </div>
             <div class="carousel-item" >
-            <img src="https://musiconi.web.app/assets/musiconi-logo-KfjCfDrd.png" class="d-block w-100 main-image-slider" alt="...">
+            <img src="assets/images/slider-images/2.jpg" class="d-block w-100 main-image-slider" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="https://musiconi.web.app/assets/musiconi-logo-KfjCfDrd.png" class="d-block w-100 main-image-slider" alt="...">
+            <img src="assets/images/slider-images/3.jpg" class="d-block w-100 main-image-slider" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="assets/images/slider-images/4.jpg" class="d-block w-100 main-image-slider" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="assets/images/slider-images/5.jpg" class="d-block w-100 main-image-slider" alt="...">
             </div>
         </div>
         </div>
