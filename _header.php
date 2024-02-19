@@ -1,4 +1,4 @@
-<header class="" style="margin-bottom: 1px;">
+<header class="position-fixed top-0 " style="margin-bottom: 1px; z-index: 10 !important; width: 100vw !important;">
     <nav class="navbar navbar-expand-lg bg-light border-bottom border-body overflow-x-hidden" data-bs-theme="dark">
         <div class="container-fluid container responsive-navbar">
             <div class="header-logo col-auto   align-self-center mx-3 ">
@@ -41,3 +41,5 @@
         </div>
     </nav>
 </header>
+
+<div class="py-3 my-2"></div>

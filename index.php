@@ -218,7 +218,7 @@
         <div class="my-1 py-2"></div>
         
         <div class="container px-2 our-parteners-section  overflow-x-hidden">
-            <marquee behavior="scroll" direction="left" id="our-partners-img-scrolling">
+            <marquee behavior="scroll" direction="left" class="py-2 px-1 ">
                 <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
                 <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
@@ -243,9 +243,9 @@
 
         <div class="my-1 py-2"></div>
 
-        <div class="donate bg-black text-white pt-5 ps-5 pb-5 d-flex">
+        <div class="donate bg-black text-white pt-5  pb-5 d-flex flex-column flex-md-row align-items-center">
             <div class="donate-img" style="width : 50%;"><img src="assets/images/slider-images/1.jpg" alt="..." width="100%"></div>
-            <div class="donate-text fw-bold fs-2 px-2 text-center d-flex align-items-center flex-column justify-content-center" style="width : 50%;">
+            <div class="donate-text fw-bold fs-2  text-center d-flex align-items-center flex-column justify-content-center w-75" style="width : 50%;">
                 <p>Donate any amount or gift.</p>
                  <div><a href="./Donate.php" class="text-decoration-none bg-warning border rounded-pill text-dark p-2 px-3 fs-4">Donate Now</a></div>
             </div>

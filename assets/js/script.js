@@ -28,7 +28,7 @@ window.onscroll = ()=> {
     }
     
     
-let imgScroller = document.getElementById('our-partners-img-scrolling');
-imgScroller.addEventListener('click', (e)=> {
-    console.log('clicked')
-})
+// let imgScroller = document.getElementById('our-partners-img-scrolling');
+// imgScroller.addEventListener('click', (e)=> {
+//     console.log('clicked')
+// })
