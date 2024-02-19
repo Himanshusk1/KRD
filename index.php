@@ -219,21 +219,31 @@
         
         <div class="container px-2 our-parteners-section  overflow-x-hidden">
             <marquee behavior="scroll" direction="left" class="py-2 px-1 ">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/1.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/2.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/3.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/4.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/5.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/6.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/7.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
-                <img src="https://muskaandreams.org/wp-content/uploads/2020/11/download-5-1.png"
+                <img src="assets/images/college-logoes/8.png"
+                    alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+                <img src="assets/images/college-logoes/9.png"
+                    alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+                <img src="assets/images/college-logoes/10.png"
+                    alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+                <img src="assets/images/college-logoes/11.png"
+                    alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+                <img src="assets/images/college-logoes/12.png"
+                    alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
+                <img src="assets/images/college-logoes/13.png"
                     alt="our-partners-images" class="rounded shadow border border-dark px-5 mx-3 py-0 " width="200">
             </marquee>
         </div>
