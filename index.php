@@ -10,6 +10,11 @@
     <meta name="keywords"
         content="Gurukul Dream Foundation, where we empower the youth of tier 2/3 cities. Our goal is to provide tailored support and opportunities for young individuals to thrive. Through workshops, internships, and more, we aim to equip them with the skills they need to succeed. Join us as we shape a brighter future for every aspiring young mind.">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- testimonials -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css'>
+    <!-- testimonials -->
+
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -262,91 +267,114 @@
         </div>
 
 
-        <div class="container  text-center Testimonials">
+        <div class="container  text-center Testimonials overflow-x-hidden mt-5">
             <h2>Testimonials</h2>
             <br>
-            <div style="row-gap: 10px;"
-                class="row d-flex justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3">
-                <div style="width: 350px;" class="col">
-                    <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
-                        <div>
-                            <img style="border-radius: 50%; width: 100px;"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
-                                class="card-img-top" alt="...">
+            
+            
+            <div style="row-gap: 10px;"  class="testimonials-section  d-flex justify-content-center align-items-beween">
+            
+                <div id="testimonials-section" class="d-flex  justify-content-center md-3 gap-5">
+                    
+                    <div style="width: 320px;" class="col">
+                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                            <div>
+                                <img style="border-radius: 50%; width: 100px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                            fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                        </svg></h5>
+                                </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <br>
+                                <b>Sumit Rathor</b>
+                                <p>Frontend Developer</p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                                        fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-                                        <path
-                                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                                    </svg></h5>
-                            </h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <br>
-                            <b>Sumit Rathor</b>
-                            <p>Frontend Developer</p>
+                    </div>
+                    <div style="width: 320px;" class="col">
+                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                            <div>
+                                <img style="border-radius: 50%; width: 100px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                            fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                        </svg></h5>
+                                </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <br>
+                                <b>Sumit Rathor</b>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 320px;" class="col">
+                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                            <div>
+                                <img style="border-radius: 50%; width: 100px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                            fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                        </svg></h5>
+                                </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.</p>
+                                <br>
+                                <b>Sumit Rathor</b>
+                                <p>Frontend Developer</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div style="width: 350px;" class="col">
-                    <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
-                        <div>
-                            <img style="border-radius: 50%; width: 100px;"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
-                                class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                                        fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-                                        <path
-                                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                                    </svg></h5>
-                            </h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <br>
-                            <b>Sumit Rathor</b>
-                            <p>Frontend Developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div style="width: 350px;" class="col">
-                    <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
-                        <div>
-                            <img style="border-radius: 50%; width: 100px;"
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
-                                class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                                        fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-                                        <path
-                                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
-                                    </svg></h5>
-                            </h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <br>
-                            <b>Sumit Rathor</b>
-                            <p>Frontend Developer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+                
+            </div>                                  
+            
+            <button class="btn btn-left my-2 mx-2" id="testimonial-btn-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+            <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+            </svg>
+        </button>
+            <button class="btn btn-right my-2 mx-2" id="testimonial-btn-right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+            </button>
+            
         </div>
     </main>
 
 
-
+    <!--  -->
     
 
 
 
     <?php include "_footer.php" ?>
+    <!-- testimonials -->
+    <script src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/textfit/2.4.0/textFit.min.js'></script>
+    <!-- testimonials -->
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>

@@ -27,8 +27,31 @@ window.onscroll = ()=> {
         }
     }
     
+
+
+// Testimonials Script...
+let btnLeft = document.getElementById('testimonial-btn-left');
+let btnRight = document.getElementById('testimonial-btn-right');
+let testimonialSection = document.getElementById('testimonials-section');
+let testmonialChilds = document.querySelectorAll('.testimonials-section div.col');
+let testimonialPos = 0;
+
+const changeTestimonialPosition = (val)=> {
+    testimonialPos += val;
+    let currPos = (testimonialPos >= 0)? testimonialPos: testimonialPos * -1;
     
-// let imgScroller = document.getElementById('our-partners-img-scrolling');
-// imgScroller.addEventListener('click', (e)=> {
-//     console.log('clicked')
-// })
+    if(currPos > (testmonialChilds.length*300)) {
+        testimonialPos -= val;
+        return;
+    }
+    testimonialSection.style.transform = `translateX(${testimonialPos}px)`;
+}
+
+btnLeft.addEventListener('click', (e)=> {
+    changeTestimonialPosition(-350);
+});
+
+btnRight.addEventListener('click', (e)=> {
+    changeTestimonialPosition(350);
+});
+// Testimonials Script...
