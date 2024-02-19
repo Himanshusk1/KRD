@@ -6,7 +6,7 @@ const loadAllReachedValues = async()=> {
         let e = reachNums[i], inVal = 0;
         let reachVal = e.getAttribute('data-reachedNum');
         let incVal = Math.round(reachVal/20);
-    
+        
         let intervals = setInterval(() => {
             if((inVal + incVal) < reachVal) {
                 e.innerHTML = inVal+=incVal;
@@ -23,6 +23,12 @@ window.onscroll = ()=> {
     if(!isAlreadyScrolled) {
         // setTimeout(() => {
             loadAllReachedValues();
-        // }, 100);
+            // }, 100);
+        }
     }
-}
+    
+    
+let imgScroller = document.getElementById('our-partners-img-scrolling');
+imgScroller.addEventListener('click', (e)=> {
+    console.log('clicked')
+})

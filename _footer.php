@@ -69,5 +69,5 @@
 
   </footer>
   <hr class="text-dark w-100">
-  <p class="text-body-secondary text-center">Copyright &copy; 2023 | Gurukul Dream Foundation. All Rights Reserved.</p>
+  <p class="text-body-secondary text-center">Copyright &copy; 2024 | Gurukul Dream Foundation. All Rights Reserved.</p>
 </div>
