@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-light border-bottom border-body overflow-x-hidden" data-bs-theme="dark">
         <div class="container-fluid container responsive-navbar">
             <div class="header-logo col-auto   align-self-center mx-3 ">
-                <a class="navbar-brand  mx-5" href="./">
+                <a class="navbar-brand  mx-5 px-3 px-md-0 overflow-x-hidden" href="./">
                     <img src="./assets/images/logo.png" alt="Logo">
                 </a>
             </div>

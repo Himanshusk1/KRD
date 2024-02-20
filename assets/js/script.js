@@ -63,29 +63,38 @@ btnRight.addEventListener('click', (e)=> {
 
 
 // let teamMemberSection = document.getElementById('our-Team-member-section');
-// let teamMemberChilds = document.querySelectorAll('.testimonials-section div.col');
+// let teamMemberChilds = document.querySelectorAll('#our-Team-member-section div.col');
+// let teamMemberPos = 0, teamMemberIndex = 0;
 
 // const changeTOurTeamPosition = (val)=> {
-//     teamMemberPos += val;
-//     let currPos1 = (teamMemberPos >= 0)? teamMemberPos: teamMemberPos * -1;
+
+//     setTimeout(() => {
+//         teamMemberPos += val;
+//         let currPos = (teamMemberPos >= 0)? teamMemberPos: teamMemberPos * -1;
+        
+//         teamMemberSection.style.transform = `translateX(${teamMemberPos}px)`;
+
+//         if((teamMemberChilds.length*500) < currPos) {
+
+//             teamMemberPos = 350;
+//         }
+
+//         changeTOurTeamPosition(-350);
+//     }, 1000);
     
-//     if(currPos1 > (testmonialChilds.length*300)) {
-//         teamMemberPos -= val;
-//         return;
-//     }
-//     teamMemberSection.style.transform = `translateX(${teamMemberPos}px)`;
+//     // console.log(teamMemberChilds[teamMemberIndex])
 // }
 
-// setInterval(() => {
+// setTimeout(() => {
 //     changeTOurTeamPosition(-350);
 // }, 1000);
 
-// btnLeft.addEventListener('click', (e)=> {
-//     changeTestimonialPosition(350);
-// });
+// // btnLeft.addEventListener('click', (e)=> {
+// //     changeTestimonialPosition(350);
+// // });
 
-// btnRight.addEventListener('click', (e)=> {
-//     changeTestimonialPosition(-350);
-// });
+// // btnRight.addEventListener('click', (e)=> {
+//     // changeTestimonialPosition(-350);
+// // });
 
-// our-Team-member-section...
+// // our-Team-member-section...

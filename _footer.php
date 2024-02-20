@@ -8,7 +8,7 @@
         <h3 class="h4 mt-2 mb-3 text-secondary">
         Social Media
         </h3>
-        <div class="social-media-links d-flex align-items-center justify-content-enenly gap-3 justify-self-start w-100 px-4 px-md-0">
+        <div class="social-media-links d-flex align-items-center justify-content-enenly gap-3 justify-self-start justify-content-center w-100 px-4 px-md-0">
             <a href="https://twitter.com/DreamGurukul?s=08" target="_blank" title="Twitter (X)"  class=" border rounded-circle p-1 border-black  text-white  text-center d-flex align-items-center justify-content-center social-media-logoes">
                 <img src="./assets/images/logoes/twitter.webp" class="rounded-circle " width="30px" alt="Social Media Logoes">
             </a>

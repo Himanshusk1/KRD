@@ -11,10 +11,6 @@
         content="Gurukul Dream Foundation, where we empower the youth of tier 2/3 cities. Our goal is to provide tailored support and opportunities for young individuals to thrive. Through workshops, internships, and more, we aim to equip them with the skills they need to succeed. Join us as we shape a brighter future for every aspiring young mind.">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 
-    <!-- testimonials -->
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css'>
-    <!-- testimonials -->
-
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -57,6 +53,7 @@
 
                 <div
                     class="bg-black reached-numbers-boxes w-100 p-3 py-2 text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner"> <img alt="Event Calendar Hold Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/event-24-357352.png?f=webp&amp;w=80" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/event-24-357352.png?f=webp&amp;w=80 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/event-24-357352.png?f=webp&amp;w=100 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="10">
                         0
                     </div>
@@ -66,6 +63,7 @@
                 </div>
                 <div
                     class="bg-black reached-numbers-boxes w-100 px-3 py-4 py-1  text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner "><img alt="Session  Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/session-5475772-4631351.png?f=webp&amp;w=100" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/session-5475772-4631351.png?f=webp&amp;w=80 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/session-5475772-4631351.png?f=webp&amp;w=200 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="20">
                         0
                     </div>
@@ -75,6 +73,7 @@
                 </div>
                 <div
                     class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner"><img alt="Workshop  Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/workshop-4946517-4111039.png?f=webp&amp;w=80" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/workshop-4946517-4111039.png?f=webp&amp;w=80 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/workshop-4946517-4111039.png?f=webp&amp;w=200 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="80">
                         0
                     </div>
@@ -84,6 +83,7 @@
                 </div>
                 <div
                     class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner"> <img alt="Industry Defence Public Sector Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/industry-2842891-2364460.png?f=webp&amp;w=80" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/industry-2842891-2364460.png?f=webp&amp;w=80 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/industry-2842891-2364460.png?f=webp&amp;w=200 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="15">
                         0
                     </div>
@@ -93,6 +93,7 @@
                 </div>
                 <div
                     class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner"> <img alt="Jobs Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/jobs-3987255-3300710.png?f=webp&amp;w=70" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/jobs-3987255-3300710.png?f=webp&amp;w=70 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/jobs-3987255-3300710.png?f=webp&amp;w=200 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="60">
                         0
                     </div>
@@ -103,6 +104,7 @@
                 </div>
                 <div
                     class="bg-black reached-numbers-boxes w-100 p-3 py-4 text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner"> <img alt="Internship Training Trainee Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-1628752-1380340.png?f=webp&amp;w=80" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-1628752-1380340.png?f=webp&amp;w=80 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-1628752-1380340.png?f=webp&amp;w=200 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="100">
                         0
                     </div>
@@ -113,6 +115,7 @@
                 </div>
                 <div
                     class="bg-black reached-numbers-boxes w-100 p-3 text-center d-flex flex-column align-items-center justify-content-center ">
+                    <div class="inner"> <img alt="Counseling Consulting Advice Icon" loading="lazy" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/counseling-2-574116.png?f=webp&amp;w=70" srcset="https://cdn.iconscout.com/icon/premium/png-256-thumb/counseling-2-574116.png?f=webp&amp;w=70 1x, https://cdn.iconscout.com/icon/premium/png-256-thumb/counseling-2-574116.png?f=webp&amp;w=200 2x" class="thumb_p6OvR"></div>
                     <div class="reached-nums-data fs-2 text-warning" data-reachedNum="10000">
                         0
                     </div>
@@ -155,10 +158,10 @@
         </div>
 
 
-        <div class="Key-contributions bg-black text-center Key">
-        <div class="text-white fs-3 fw-bold pb-5 pt-5">Key contributions</div>
-            <div style="row-gap: 10px;" class="row d-flex justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 pb-5">
-                <div style="width: 400px;" class="col">
+        <div class="Key-contributions bg-black text-center w-100 Key overflow-x-hidden">
+        <div class="text-white fs-3 fw-bold pb-5 pt-5 overflow-x-hidden">Key contributions</div>
+            <div  class="flex-column flex-md-row w-100 d-flex overflow-x-hidden align-items-center px-2 gap-5 justify-content-center  pb-5">
+                <div style="width: 380px;" class=" ">
                     <div class="card w-100" style="padding: 10px !important;">
                         <div class="mt-5">
                             <i class="fa-solid fa-book" style="font-size: 100px"></i>
@@ -168,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="width: 400px;" class="col">
+                <div style="width: 380px;" class="">
                     <div class="card w-100" style="padding: 10px !important;">
                         <div class="mt-5">
                         <i class="fa-solid fa-tv" style="font-size: 100px"></i>
@@ -178,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="width: 400px;" class="col">
+                <div style="width: 380px;" class="">
                     <div class="card w-100" style="padding: 10px !important;">
                         <div class="mt-5">
                         <i class="fa-solid fa-arrow-up-right-dots" style="font-size: 100px"></i>
@@ -221,7 +224,7 @@
 
 
         <div class="my-1 py-2"></div>
-        
+        <h2 class="text-center">Our Partners</h2>
         <div class="container px-2 our-parteners-section  overflow-x-hidden">
             <marquee behavior="scroll" direction="left" class="py-2 px-1 ">
                 <img src="assets/images/college-logoes/1.png"
@@ -364,15 +367,15 @@
         </div>
 
         <div class="container  text-center Testimonials overflow-x-hidden mt-5">
-            <h2>Our Team Member</h2>
+            <h2>Our Team Members</h2>
             <br>            
             
+            <marquee behaviour="scroll" direction="left" id="our-Team-member-section" class="d-flex overflow-x-hidden justify-content-center md-3 gap-5">
             <div style="row-gap: 10px;"  class="our-Team-member-section d-flex justify-content-center align-items-beween">
             
-                <div id="our-Team-member-section" class="d-flex  justify-content-center md-3 gap-5">
                     
-                    <div style="width: 320px;" class="col">
-                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                    <div style="width: 320px;" class="col mx-3">
+                        <div class="card w-100 text-white bg-dark d-flex flex-column align-items-center justify-content-between" style="padding: 10px !important; width: 18rem;">
                             <div>
                                 <img style="border-radius: 50%; width: 100px;"
                                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
@@ -385,8 +388,8 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 320px;" class="col">
-                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                    <div style="width: 320px;" class="col mx-3">
+                        <div class="card w-100 text-white bg-dark d-flex flex-column align-items-center justify-content-between" style="padding: 10px !important; width: 18rem;">
                             <div>
                                 <img style="border-radius: 50%; width: 100px;"
                                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
@@ -399,8 +402,8 @@
                             </div>
                         </div>
                     </div>
-                    <div style="width: 320px;" class="col">
-                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                    <div style="width: 320px;" class="col mx-3">
+                        <div class="card w-100 text-white bg-dark d-flex flex-column align-items-center justify-content-between" style="padding: 10px !important; width: 18rem;">
                             <div>
                                 <img style="border-radius: 50%; width: 100px;"
                                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
@@ -413,8 +416,8 @@
                             </div>
                         </div>
                     </div>
-                </div> 
-            </div>             
+                </div>             
+            </marquee> 
         </div>
     </main>
 
@@ -425,10 +428,6 @@
 
 
     <?php include "_footer.php" ?>
-    <!-- testimonials -->
-    <script src='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/textfit/2.4.0/textFit.min.js'></script>
-    <!-- testimonials -->
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
