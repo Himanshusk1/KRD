@@ -362,6 +362,60 @@
             </button>
             
         </div>
+
+        <div class="container  text-center Testimonials overflow-x-hidden mt-5">
+            <h2>Our Team Member</h2>
+            <br>            
+            
+            <div style="row-gap: 10px;"  class="our-Team-member-section d-flex justify-content-center align-items-beween">
+            
+                <div id="our-Team-member-section" class="d-flex  justify-content-center md-3 gap-5">
+                    
+                    <div style="width: 320px;" class="col">
+                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                            <div>
+                                <img style="border-radius: 50%; width: 100px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <br>
+                                <b>Sumit Rathor</b>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 320px;" class="col">
+                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                            <div>
+                                <img style="border-radius: 50%; width: 100px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <br>
+                                <b>Sumit Rathor</b>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 320px;" class="col">
+                        <div class="card w-100 text-white bg-dark" style="padding: 10px !important; width: 18rem;">
+                            <div>
+                                <img style="border-radius: 50%; width: 100px;"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi8N4fKbNARsTwjZZKpBbszKdfrR63QgwfA&usqp=CAU"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <br>
+                                <b>Sumit Rathor</b>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>             
+        </div>
     </main>
 
 

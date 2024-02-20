@@ -33,14 +33,14 @@ window.onscroll = ()=> {
 let btnLeft = document.getElementById('testimonial-btn-left');
 let btnRight = document.getElementById('testimonial-btn-right');
 let testimonialSection = document.getElementById('testimonials-section');
-let testmonialChilds = document.querySelectorAll('.testimonials-section div.col');
+let testmonialChilds = document.querySelectorAll('.our-Team-member-section div.col');
 let testimonialPos = 0;
 
 const changeTestimonialPosition = (val)=> {
     testimonialPos += val;
     let currPos = (testimonialPos >= 0)? testimonialPos: testimonialPos * -1;
     
-    if(currPos > (testmonialChilds.length*300)) {
+    if(currPos > (testmonialChilds.length*300)/2) {
         testimonialPos -= val;
         return;
     }
@@ -55,3 +55,37 @@ btnRight.addEventListener('click', (e)=> {
     changeTestimonialPosition(350);
 });
 // Testimonials Script...
+
+
+
+// our-Team-member-section...
+
+
+
+// let teamMemberSection = document.getElementById('our-Team-member-section');
+// let teamMemberChilds = document.querySelectorAll('.testimonials-section div.col');
+
+// const changeTOurTeamPosition = (val)=> {
+//     teamMemberPos += val;
+//     let currPos1 = (teamMemberPos >= 0)? teamMemberPos: teamMemberPos * -1;
+    
+//     if(currPos1 > (testmonialChilds.length*300)) {
+//         teamMemberPos -= val;
+//         return;
+//     }
+//     teamMemberSection.style.transform = `translateX(${teamMemberPos}px)`;
+// }
+
+// setInterval(() => {
+//     changeTOurTeamPosition(-350);
+// }, 1000);
+
+// btnLeft.addEventListener('click', (e)=> {
+//     changeTestimonialPosition(350);
+// });
+
+// btnRight.addEventListener('click', (e)=> {
+//     changeTestimonialPosition(-350);
+// });
+
+// our-Team-member-section...
