@@ -1,6 +1,40 @@
 :root {
     --yellow: #ffbd07;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.new-font {
+    font-family: "Open Sans", sans-serif !important;
+    /* font-optical-sizing: auto; */
+    /* font-weight: <weight>; */
+    font-style: normal;
+    /* font-variation-settings:
+      "wdth" 100; */
+}
+.bg-yellow {
+    background-color: #fecc43;
+}
+.text-success {
+    color: rgb(7, 86, 7) !important;
+    
+}
+.bg-success {
+    background-color: rgb(7, 86, 7) !important;;
+}
+.bg-orange {
+    background-color: rgb(242, 86, 8) !important;;
+}
+.text-orange {
+    color: rgb(242, 86, 8) !important;;
+}
+.shadow-yellow:hover {
+    box-shadow: 3px 4px 60px 2px var(--yellow) !important;
+}
+.text-justify {
+    text-align: justify !important;
+}
+
+
 
 * {
     transition: all 0.1s linear !important;
@@ -47,7 +81,11 @@ nav{
 
 /* Main index page CSS... */
 .main-image-slider {
-    height: 95vh !important;
+    height: 75vh !important;
+}
+
+.reached-numbers-boxes {
+    height: 200px !important;
 }
 /* Main index page CSS... */
 
@@ -74,6 +112,25 @@ nav{
     .main-image-slider {
         height: 40vh !important;
     }
+}
+@media screen and (max-width: 500px) {
+
+    .reached-numbers-boxes {
+        max-width: 100px !important;
+    }
+
+    .about-gurukul-img {
+        max-width: 320px !important;
+    }
+
+    .why-gurukul-cards {
+        max-width: 300px !important;
+    }
+    
+    .footer-logo-responsive {
+        width: 200px !important;
+    }
+
 }
 
 

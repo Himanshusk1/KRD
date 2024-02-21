@@ -15,25 +15,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect  navbar-links d-flex flex-column" aria-current="page" href="./">Home</a>
+                            <a class="nav-link text-black hover-effect  navbar-links d-flex flex-column" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./What-We-Do.php">What We Do</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Why-Gurukul">Why Gurukul</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./Our-Achievements.php">Our Achievements</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Our-Achievements">Our Achievements</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./The-Team.php">The Team</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#The-Team">The Team</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./Volunteer.php">Volunteer</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Volunteer">Volunteer</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./Contacts.php">Contacts</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Contact">Contacts</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="./Donate.php">Donate</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#">Donate</a>
                         </li>
                     </ul>
                 </div>

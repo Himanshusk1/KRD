@@ -40,13 +40,13 @@ const changeTestimonialPosition = (val)=> {
     testimonialPos += val;
     let currPos = (testimonialPos >= 0)? testimonialPos: testimonialPos * -1;
     
-    if(currPos > (testmonialChilds.length*300)/2) {
+    if(currPos > (testmonialChilds.length*500)/4) {
         testimonialPos -= val;
         return;
     }
     testimonialSection.style.transform = `translateX(${testimonialPos}px)`;
 }
-
+changeTestimonialPosition(200);
 btnLeft.addEventListener('click', (e)=> {
     changeTestimonialPosition(-350);
 });
