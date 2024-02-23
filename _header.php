@@ -6,7 +6,7 @@
                     <img src="./assets/images/logo.png" alt="Logo">
                 </a>
             </div>
-            <button class="navbar-toggler align-self-start m-2  position-absolute top-0 btn btn-primary bg-secondary" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler align-self-start m-2  position-absolute top-0 btn btn-primary bg-success" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon dark "></span>
@@ -15,25 +15,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect  navbar-links d-flex flex-column" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-black hover-effect  navbar-links d-flex flex-column fw-bold" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Why-Gurukul">Why Gurukul</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column fw-bold" href="#Why-Gurukul">Why Gurukul</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Our-Achievements">Our Achievements</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column fw-bold" href="#Our-Achievements">Our Achievements</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#The-Team">The Team</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column fw-bold" href="#The-Team">The Team</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Volunteer">Volunteer</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column fw-bold" href="#testimonials-section">Testimonials</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#Contact">Contacts</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column fw-bold" href="#Contact">Contacts</a>
                         </li>
                         <li class="nav-item hover-effect navbar-links-box">
-                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column" href="#">Donate</a>
+                            <a class="nav-link text-black hover-effect navbar-links d-flex flex-column fw-bold" target="_blank" href="https://forms.gle/e4XjLQcyskvD3t7c7">Donate</a>
                         </li>
                     </ul>
                 </div>

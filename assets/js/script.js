@@ -5,13 +5,14 @@ const loadAllReachedValues = async()=> {
     for(let i = 0; i < reachNums.length; i++) {
         let e = reachNums[i], inVal = 0;
         let reachVal = e.getAttribute('data-reachedNum');
+        let finalVal = e.getAttribute('data-reachedNumFinally');
         let incVal = Math.round(reachVal/20);
         
         let intervals = setInterval(() => {
             if((inVal + incVal) < reachVal) {
                 e.innerHTML = inVal+=incVal;
             } else {
-                e.innerHTML = reachVal + "+";
+                e.innerHTML = finalVal;
                 clearInterval(intervals);
             }
         }, 50);

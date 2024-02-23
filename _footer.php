@@ -7,7 +7,7 @@
       </a> -->
       
       <div class="col mb-3 text-center text-md-start">
-      <h5 class="text-success h1 my-3 pt-1">Contact Us</h5>
+      <h5 class="text-success h1 my-3 pt-1 libre-baskerville-regular">Contact Us</h5>
       <ul class="nav flex-column p-0">
       <li class=" mb-2"><a href="tel:+918269250197" class="nav-link p-0 text-dark ">
           <span>
@@ -63,12 +63,12 @@
     </div> -->
 
     <div class="justify-self-end my-3 " id="Contact" style="width: 400px !important;">
-    <h3 class="h1 text-success">Get in Touch</h3>
-      <form action="" method="POST">
-        <input type="text" class="form-control my-3" placeholder="Name">
-        <input type="number" class="form-control my-3" placeholder="Phone No.">
-        <input type="number" class="form-control my-3" placeholder="Email">
-        <textarea type="text" class="form-control my-3" placeholder="Drop a message..." style="height: 100px;"></textarea>
+    <h3 class="h1 text-success libre-baskerville-regular">Get in Touch</h3>
+      <form action="./assets/email.php" method="POST">
+        <input type="text" name="name" class="form-control my-3" required placeholder="Name">
+        <input type="number" name="mobile" class="form-control my-3" required placeholder="Phone No.">
+        <input type="email" name="email" class="form-control my-3" required placeholder="Email">
+        <textarea type="text" name="message" class="form-control my-3" required placeholder="Drop a message..." style="height: 100px;"></textarea>
         <button class="btn btn-primary mt-2" type="submit" >Send</button>
       </form>
     </div>
@@ -78,7 +78,7 @@
 
   </footer>
   <hr class="text-dark w-100">
-  <p class="text-body-secondary text-center">Copyright &copy; 2024 | Gurukul Dream Foundation. All Rights Reserved.</p>
+  <p class="text-body-secondary text-center fw-bold">Copyright &copy; 2024 | Gurukul Dream Foundation. All Rights Reserved.</p>
 </div>
 </div>
 

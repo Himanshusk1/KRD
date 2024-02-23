@@ -2,6 +2,17 @@
     --yellow: #ffbd07;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/* font styles */
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* font styles */
 
 .new-font {
     font-family: "Open Sans", sans-serif !important;
@@ -11,6 +22,11 @@
     /* font-variation-settings:
       "wdth" 100; */
 }
+
+.bg-white , body {
+    background-color: #fffcf2 !important;
+}
+
 .bg-yellow {
     background-color: #fecc43;
 }
@@ -18,8 +34,12 @@
     color: rgb(7, 86, 7) !important;
     
 }
+.text-green {
+    color: #4c9576 !important;
+    
+}
 .bg-success {
-    background-color: rgb(7, 86, 7) !important;;
+    background-color: #4c9576 !important;;
 }
 .bg-orange {
     background-color: rgb(242, 86, 8) !important;;
@@ -27,6 +47,13 @@
 .text-orange {
     color: rgb(242, 86, 8) !important;;
 }
+.text-success-light  {
+    color: rgb(66, 199, 66) !important;;
+}
+.text-orange-light  {
+    color: rgb(244, 114, 49) !important;;
+}
+
 .shadow-yellow:hover {
     box-shadow: 3px 4px 60px 2px var(--yellow) !important;
 }
@@ -61,7 +88,7 @@ nav{
 }
 
 .hover-effect:hover{
-    color: var(--yellow) !important;
+    color: #4c9576 !important;
 }
 
 .navbar-links::after {
@@ -69,7 +96,7 @@ nav{
     justify-self: start;
     width: 0%;
     height: 1px !important;
-    background-color: var(--yellow) !important;
+    background-color: #4c9576 !important;
     transition: all 0.2s linear !important;
 }
 .navbar-links-box:hover > .navbar-links::after {
@@ -80,8 +107,12 @@ nav{
 
 
 /* Main index page CSS... */
+.times-roman-font {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
 .main-image-slider {
-    height: 75vh !important;
+    height: 80vh !important;
 }
 
 .reached-numbers-boxes {
@@ -102,6 +133,12 @@ nav{
 /* CSS for Footer of th ewebsite... */
 
 
+@media screen and (min-width: 580px) {
+    
+    .responsive-scroll-bar {
+        transform: translateX(-20%) !important;
+    }
+}
 @media screen and (max-width: 1000px) {
     
     .responsive-navbar {
@@ -112,19 +149,66 @@ nav{
     .main-image-slider {
         height: 40vh !important;
     }
+
+    .font-h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .reached-numbers-boxes {
+        max-width: 20% !important;
+        font-size: x-small !important;
+        max-height: 140px !important;
+    }
+    .our-reach-icons-images {
+        max-width: 40px !important;
+    }
+    .reached-nums-data {
+        font-size: small !important;
+    }
+
+    .founders-message-data {
+        font-size: small !important;
+    }
+
+    .why-gurukul-cards-responsive, .why-gurukul-cards {
+        max-width: 100px !important;
+        max-height: 80px !important;
+        font-size: small !important;
+        padding: 1px !important;
+    }
+    .why-gurukul-cards-responsive img {
+        max-width: 100px !important;
+        max-height: 80px !important;
+        font-size: small !important;
+        
+    }
+    .text-heading-small {
+        font-size: .51rem !important;
+        font-weight: 800;
+    }
 }
 @media screen and (max-width: 500px) {
 
-    .reached-numbers-boxes {
-        max-width: 100px !important;
+    .font-h1 {
+        font-size: 2rem !important;
     }
+    .font-h3 {
+        font-size: 1.3rem !important;
+    }
+
+    .organization-name {
+        display: flex !important;
+        gap: 5px !important;
+    }
+
+    
 
     .about-gurukul-img {
         max-width: 320px !important;
     }
 
     .why-gurukul-cards {
-        max-width: 300px !important;
+        max-width: 100px !important;
     }
     
     .footer-logo-responsive {
