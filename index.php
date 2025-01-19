@@ -34,7 +34,7 @@
                     Be a part of Gurukul Community 
                 </h1>
                 <div class="d-flex gap-3 ">
-                <a href="https://forms.gle/e4XjLQcyskvD3t7c7" target="_blank" class="btn btn-warning rounded-5 px-sm-5 px-3 mx-sm-3 mx-2 px-md-5 fw-bold  py-2">Donate</a>
+                <a href="supportUs.php" target="_blank" class="btn btn-warning rounded-5 px-sm-5 px-3 mx-sm-3 mx-2 px-md-5 fw-bold  py-2">Support Us</a>
                 <a class="btn btn-outline-warning rounded-5 px-sm-5 px-3 mx-sm-3 mx-2 px-md-5 fw-bold  py-2">Join Us</a>
             </div>
          </div>
@@ -169,7 +169,7 @@
             <div class="container text-start overflow-x-hidden">
                 <div style="column-gap: 0px !important;" class=" d-flex  flex-column flex-md-row justify-content-center align-items-md-start gap-3 align-items-center">
                     <div class="mx-5 about-gurukul-img">
-                        <img src="./assets/images/photo-eith-cm.png"
+                        <img src="./assets/images/aboutGurukul.jpeg"
                             class="rounded shadow about-gurukul-img" style="width: 500px; height: 250px" alt="..." />
                     </div>
                     <div style="" class=" d-flex flex-column justify-content-start  ">

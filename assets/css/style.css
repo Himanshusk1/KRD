@@ -217,4 +217,54 @@ nav{
 
 }
 
+/* This is the css of Extra page */
+.row {
+    row-gap: 10px;
+}
 
+.wp {
+    width: 350px;
+}
+
+.dp {
+    width: 350px;
+    margin-bottom: 40px;
+}
+
+.card {
+    padding: 10px !important;
+    width: 18rem;
+}
+
+.img {
+    border-radius: 900px !important;
+    width: 90px;
+    height: 90px;
+}
+
+.patron{
+    max-width: 400px;
+}
+
+.patronImg {
+    border-radius: 900px !important;
+    width: 170px;
+    height: 170px;
+}
+
+.Patron-text {
+    width: 480px;
+}
+
+.Tre {
+    border-radius: 900px !important;
+    width: 170px;
+    height: 170px;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    color: red;
+    background: #ccc7c7a7;
+    box-shadow: #aba48c 2px 1px;
+}
